@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página inicial</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Formulário</h1>
+        <form action="form_result.html" method="get">
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" id="nome"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email"><br><br>
+
+            <label for="datanasc">Data de nascimento:</label><br>
+            <input type="date" name="datanasc" id="datanasc"><br><br>
+
+            <label for="radio_ask_01">Você achou as informações da página relevantes?</label><br>
+            <input type="radio" name="radio_ask_01" id="radio_ask_01" value="y"> Sim <br>
+            <input type="radio" name="radio_ask_01" id="radio_ask_01" value="n"> Não <br><br>
+
+            <label for="cbox_01">Quais foram os principais pontos positivos da página/receita na sua opinião</label><br>
+            <input type="checkbox" name="cbox_01_a1" id="cbox_01">Clareza das informações<br>
+            <input type="checkbox" name="cbox_01_a2" id="cbox_01">Organização da página<br>
+            <input type="checkbox" name="cbox_01_a3" id="cbox_01">Fácil de comprar os ingredientes<br>
+            <input type="checkbox" name="cbox_01_a4" id="cbox_01">Deu certo e ficou uma delícia (a receita)<br><br>
+
+            <label for="select_nota">Qual sua nota para esta receita (0 muito ruim e 10 muito boa)</label>
+            <select name="nota" id="nota">
+                <option value="">Selecione uma opção</option>
+                <option value="s1">1</option>
+                <option value="s2">2</option>
+                <option value="s3">3</option>
+                <option value="s4">4</option>
+                <option value="s5">5</option>
+                <option value="s6">6</option>
+                <option value="s7">7</option>
+                <option value="s8">8</option>
+                <option value="s9">9</option>
+                <option value="s10">10</option>
+            </select><br><br>
+
+            <label for="sugestoes">Você tem alguma sugestão para a página?</label><br>
+            <textarea name="sugestoes" id="sugestoes"></textarea><br>
+
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <br>
+
+    <footer>
+        <p>Clique na imagem para voltar para a página inicial</p>
+        <a href="index.html#home" rel="noopener noreferrer"><img
+                src="https://angelofdiasg.tech/wp-content/uploads/2022/11/Quadrado0411-2019-114644548368095739608-1024x1024.jpg"
+                alt="imagem footer" style="width: 1000px;height: 120px;"></a>
+    </footer>
+</body>
+
+</html>
